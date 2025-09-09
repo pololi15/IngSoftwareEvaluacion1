@@ -1,5 +1,5 @@
 import sumar from "./sumador";
-import ingreso from "./parqueo.js";
+import { salida, ingreso } from "./parqueo.js";
 
 const first = document.querySelector("#ingreso-numero");
 const second = document.querySelector("#salida-numero");
@@ -20,8 +20,8 @@ form.addEventListener("submit", (event) => {
   event.preventDefault(); 
 
   const horaIngreso = Number.parseInt(first.value);
-  //const horaSalida = Number.parseInt(second.value);
+  const horaSalida = Number.parseInt(second.value);
 
-  div.innerHTML = "<p>Hora de ingreso: " + ingreso(horaIngreso) + "</p>";
+  div.innerHTML = "<p>Hora de ingreso: " + ingreso(horaIngreso) + " " + "Hora de salida: " + salida(horaSalida)+ "</p>";
 
 });

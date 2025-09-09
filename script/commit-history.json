@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "6fd3368f821248cbe2cc95211100f69bb90e13b0",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-09T14:04:42.000Z",
       "message": "feat: ingresar ingreso del usuario",
-      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/6fd3368f821248cbe2cc95211100f69bb90e13b0"
     },
     "stats": {
       "total": 71,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-09T14:14:16.000Z",
+      "message": "feeat: ingresar y mostrar salida del usuario",
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 17,
+      "deletions": 5,
+      "date": "2025-09-09"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

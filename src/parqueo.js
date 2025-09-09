@@ -2,4 +2,8 @@ function ingreso(hora){
     return hora;
 }
 
-export default ingreso;
+function salida(hora){ 
+    return hora;
+}
+
+export { ingreso, salida };
