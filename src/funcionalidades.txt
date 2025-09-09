@@ -1,0 +1,23 @@
+-----------
+Parqueo
+-----------
+Registrar la hora de ingreso  con el ticket y mostrar
+indicar si el ticket fue perdido
+Registrar la hora de salida con el ticket y mostrar
+Consultar el monto a pagar y mostrar
+mostrar desgloce completo para el cliente
+---------------
+
+
+
+Registrar la hora de ingreso y mostrar en pantalla
+Consultar si el ticket se perdio
+registrar la hora de salida y mostrar en pantalla
+
+
+calcular el monto a pagar
+
+calcular caso tarifa base y mostrar(10bs por hora)
+calcular caso tarifa nocturna, 22:00 - 6:00, y mostrar (6bs por hora o fraccion)
+calcular caso tope maximo por dia calendario y mostrar (50bs por dia)
+calcular caso penalidad por perdida de ticket y mostrar (80 bs total)

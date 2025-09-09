@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-09T14:04:42.000Z",
+      "message": "feat: ingresar ingreso del usuario",
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+    },
+    "stats": {
+      "total": 71,
+      "additions": 60,
+      "deletions": 11,
+      "date": "2025-09-09"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
