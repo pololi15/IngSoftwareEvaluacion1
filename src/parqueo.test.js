@@ -28,6 +28,11 @@ describe('Parqueo', () => {
     expect(tarifa(false, 23, 1)).toEqual(12); 
   });
 
+  it("no deberia cobrar mas de 50 Bs por un dia", () => {
+    expect(tarifa(false, 8, 20)).toEqual(50); 
+  });
+
+
 
 
 

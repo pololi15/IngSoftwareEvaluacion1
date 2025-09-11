@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e46db40f047f26b4fe63d6362422372fe543e7ba",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-11T04:21:53.000Z",
       "message": "feat:calcula la tarifa nocturna",
-      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/e46db40f047f26b4fe63d6362422372fe543e7ba"
     },
     "stats": {
       "total": 21,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-11T04:30:02.000Z",
+      "message": "feat: calcula la tarifa pero ahora tiene un tope diario",
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2025-09-11"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

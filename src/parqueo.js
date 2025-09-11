@@ -22,13 +22,17 @@ function tarifa(ticketPerdido, horaIngreso, horaSalida) {
   if (ticketPerdido) return 80;
 
   let horas = calcularHoras(horaIngreso, horaSalida);
+  let costo;
 
   if (esNocturno(horaIngreso, horaSalida)) {
-    return horas * 6;
+    costo = horas * 6;
+  } else {
+    costo = horas * 10;
   }
 
-  return horas * 10;
+  return Math.min(costo, 50);
 }
+
 
 
 
