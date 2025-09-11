@@ -95,17 +95,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4225a35656f7189f8fbccaf11e0839e080213b1d",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-11T04:30:02.000Z",
       "message": "feat: calcula la tarifa pero ahora tiene un tope diario",
-      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/4225a35656f7189f8fbccaf11e0839e080213b1d"
     },
     "stats": {
       "total": 13,
       "additions": 11,
       "deletions": 2,
+      "date": "2025-09-11"
+    },
+    "coverage": 100,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-11T04:58:12.000Z",
+      "message": "Refactorizacion",
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+    },
+    "stats": {
+      "total": 56,
+      "additions": 36,
+      "deletions": 20,
       "date": "2025-09-11"
     },
     "coverage": 100,
