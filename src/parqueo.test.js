@@ -32,6 +32,17 @@ describe('Parqueo', () => {
     expect(tarifa(false, 8, 20)).toEqual(50); 
   });
 
+  it("deberia cobrar maximo 50 Bs en un dia", () => {
+    expect(tarifa(false, 8, 23, 0)).toEqual(50);
+  });
+
+  it("deberia cobrar maximo 100 Bs en dos dias", () => {
+    expect(tarifa(false, 8, 8, 1)).toEqual(100);
+  });
+
+  it("deberia cobrar maximo 150 Bs en tres dias", () => {
+    expect(tarifa(false, 8, 12, 2)).toEqual(150);
+  });
 
 
 

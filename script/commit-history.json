@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3cccf44b1957e48c17b24507332a442ea77dd73d",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-11T04:58:12.000Z",
       "message": "Refactorizacion",
-      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/3cccf44b1957e48c17b24507332a442ea77dd73d"
     },
     "stats": {
       "total": 56,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-11T05:00:37.000Z",
+      "message": "feat: se calcula el monto para varios dias",
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2025-09-11"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
