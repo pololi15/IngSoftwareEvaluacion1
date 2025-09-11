@@ -1,5 +1,5 @@
 import sumar from "./sumador";
-import { salida, ingreso } from "./parqueo.js";
+import { salida, ingreso, tarifa} from "./parqueo.js";
 
 const first = document.querySelector("#ingreso-numero");
 const second = document.querySelector("#salida-numero");
@@ -21,6 +21,12 @@ form.addEventListener("submit", (event) => {
 
   const horaIngreso = Number.parseInt(first.value);
   const horaSalida = Number.parseInt(second.value);
+  const ticketPerdido = document.querySelector("#ticket-perdido").checked;
+
+  if(ticketPerdido){
+    div.innerHTML = "<p>La tarifa por ticket perdido es: " + tarifa(ticketPerdido) + "</p>";
+    return;
+  }
 
   div.innerHTML = "<p>Hora de ingreso: " + ingreso(horaIngreso) + " " + "Hora de salida: " + salida(horaSalida)+ "</p>";
 

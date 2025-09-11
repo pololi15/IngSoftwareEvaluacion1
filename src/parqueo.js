@@ -6,4 +6,10 @@ function salida(hora){
     return hora;
 }
 
-export { ingreso, salida };
+function tarifa(ticketPerdido){
+    if(ticketPerdido){
+        return 80;
+    }
+}
+
+export { ingreso, salida, tarifa };

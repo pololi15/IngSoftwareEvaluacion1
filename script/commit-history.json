@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ead29be1b18b1b4363444c1a9769bd984cf823af",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-09T14:14:16.000Z",
       "message": "feeat: ingresar y mostrar salida del usuario",
-      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/ead29be1b18b1b4363444c1a9769bd984cf823af"
     },
     "stats": {
       "total": 22,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-11T03:55:35.000Z",
+      "message": "feat: calcula si el ticket se perdio y devuelve o muestra la tarifa, 80bs",
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 21,
+      "deletions": 2,
+      "date": "2025-09-11"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
