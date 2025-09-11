@@ -133,17 +133,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a1dbf33100ead30fcfe85dad20c7fa6bed82d11d",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-11T05:00:37.000Z",
       "message": "feat: se calcula el monto para varios dias",
-      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/a1dbf33100ead30fcfe85dad20c7fa6bed82d11d"
     },
     "stats": {
       "total": 11,
       "additions": 11,
       "deletions": 0,
+      "date": "2025-09-11"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-11T05:30:27.000Z",
+      "message": "Ya esta funcional todo",
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 25,
+      "deletions": 21,
       "date": "2025-09-11"
     },
     "coverage": 100,
