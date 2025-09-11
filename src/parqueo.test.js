@@ -24,6 +24,10 @@ describe('Parqueo', () => {
     expect(tarifa(false, 10, 12)).toEqual(20);
   });
 
+  it("deberia cobrar tarifa nocturna si entra 23 y sale 1", () => {
+    expect(tarifa(false, 23, 1)).toEqual(12); 
+  });
+
 
 
 

@@ -6,6 +6,10 @@ function salida(hora){
     return hora;
 }
 
+function esNocturno(horaIngreso, horaSalida) {
+  return (horaIngreso >= 22 || horaIngreso < 6) && (horaSalida > horaIngreso || horaSalida <= 6);
+}
+
 function calcularHoras(horaIngreso, horaSalida) {
     let horas = horaSalida - horaIngreso;
     if (horas <= 0) {
@@ -15,12 +19,17 @@ function calcularHoras(horaIngreso, horaSalida) {
 }
 
 function tarifa(ticketPerdido, horaIngreso, horaSalida) {
-    if (ticketPerdido) return 80;
+  if (ticketPerdido) return 80;
 
-    let horas = calcularHoras(horaIngreso, horaSalida);
-    return horas * 10;
+  let horas = calcularHoras(horaIngreso, horaSalida);
+
+  if (esNocturno(horaIngreso, horaSalida)) {
+    return horas * 6;
+  }
+
+  return horas * 10;
 }
 
 
 
-export { ingreso, salida, tarifa };
+export { ingreso, salida, tarifa, esNocturno, calcularHoras };
