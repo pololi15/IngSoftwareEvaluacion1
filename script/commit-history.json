@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d68fa58e66795f186126b19481cdcedb5be195fb",
     "author": "Ostin",
     "commit": {
       "date": "2025-09-11T03:55:35.000Z",
       "message": "feat: calcula si el ticket se perdio y devuelve o muestra la tarifa, 80bs",
-      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/d68fa58e66795f186126b19481cdcedb5be195fb"
     },
     "stats": {
       "total": 23,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Ostin",
+    "commit": {
+      "date": "2025-09-11T04:16:58.000Z",
+      "message": "feat: calcula la tarifa por hora, es el caso simple",
+      "url": "https://github.com/pololi15/IngSoftwareEvaluacion1/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 23,
+      "deletions": 3,
+      "date": "2025-09-11"
+    },
+    "coverage": 90.91,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

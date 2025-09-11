@@ -15,6 +15,15 @@ describe('Parqueo', () => {
   it("deberia cobrar tarifa de 80 si el ticket esta perdido", () => {
     expect(tarifa(true)).toEqual(80);
   });
+  
+  it("deberia cobrar 10 Bs por 1 hora", () => {
+    expect(tarifa(false, 10, 11)).toEqual(10);
+  });
+
+  it("deberia cobrar 20 Bs por 2 horas", () => {
+    expect(tarifa(false, 10, 12)).toEqual(20);
+  });
+
 
 
 
